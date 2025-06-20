@@ -1,0 +1,14 @@
+requirements.txt
+
+# pandas
+# numpy
+# json
+# matplotlib
+# seaborn
+# scikit-learn
+# xgboost
+# imbalanced-learn
+# streamlit
+# joblib
+# RandomSearchCV
+# streamlit-components
