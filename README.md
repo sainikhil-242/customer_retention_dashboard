@@ -48,10 +48,9 @@ Recall – How many actual churns were identified
 F1-Score – Harmonic mean of precision and recall
 
 📊RESULTS
-Model	               Accuracy	 Precision	 Recall	 F1-Score
-Logistic Regression	  80.05%	    78.91%	 82.75%	   80.78%
-XGBoost	              84.93%	    83.47%	 87.61%	   85.49%
-Random Forest	        85.75%	    85.43%	 86.65%	   86.04%
+![custo_metrics](https://github.com/user-attachments/assets/2cde8867-e484-4384-ab63-dd2f1a9faf16)
+
+
 
 Random Forest gave the best F1-Score and was selected as the best-performing model.
 
