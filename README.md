@@ -90,19 +90,8 @@ STEPS TO RUN THE CODE
 
 Create folder structure like this and place the files 
 📁 Folder Structure
-customer_churn_project/
-│
-├── app.py                      # Streamlit Frontend
-├── customer_.py                 # Model Training Script
-├── models/
-│   ├── logistic_model.pkl
-│   ├── xgb_model.pkl
-│   ├── rf_model.pkl
-│   └── train_columns.pkl
-|   |__ model_metrics.json
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── requirements.txt
-└── README.md
+![custo_folder_struct](https://github.com/user-attachments/assets/fc3c233d-c397-42eb-9181-0d7643b668a5)
+
 
 
 * Open Pycharm and open the project folder in it
