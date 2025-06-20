@@ -1,4 +1,7 @@
 # customer_retention_dashboard
+NOTE: 
+
+RANDOM FOREST model Pickle file is not present here in Repository please execute the customer_.ipynb file in colab for that file and then proceed 
 
 This project uses machine learning to predict whether a telecom customer is likely to churn based on various features. It includes model training (Logistic Regression, XGBoost, Random Forest), Streamlit UI for predictions, and a Power BI dashboard for interactive visualization.
 
