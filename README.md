@@ -1,5 +1,5 @@
 # customer_retention_dashboard
-NOTE: 
+📌 NOTE: 
 
 RANDOM FOREST model Pickle file is not present here in Repository please execute the customer_.ipynb file in colab for that file and then proceed 
 
