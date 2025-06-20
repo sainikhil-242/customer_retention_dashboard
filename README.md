@@ -8,6 +8,8 @@ The objective of this project is to predict customer churn in a telecom dataset 
 
 🛠️ APPROACH
 DATA PREPROCESSING
+
+
 Loaded Dataset: WA_Fn-UseC_-Telco-Customer-Churn.csv.
 
 Dropped customerID column.
@@ -23,6 +25,8 @@ Applied One-Hot Encoding for categorical features.
 Scaled numerical features: tenure, MonthlyCharges, TotalCharges using StandardScaler.
 
 EXPLORATORY DATA ANALYSIS (EDA)
+
+
 Visualized churn distribution, correlation heatmap, and monthly charges vs churn using Seaborn and Matplotlib.
 
 3. Handling Class Imbalance
@@ -32,11 +36,15 @@ Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance classes in
 Trained three models with hyperparameter tuning using RandomizedSearchCV:
 
 Model	Notes
+
+
 Logistic Regression	Baseline model
 Random Forest	Tree-based ensemble with hyperparameter tuning
 XGBoost	Gradient boosting model with tuning 
 
 EVALUATION METRICS
+
+
 Each model was evaluated using:
 
 Accuracy – Overall correctness of the model
@@ -55,6 +63,8 @@ F1-Score – Harmonic mean of precision and recall
 Random Forest gave the best F1-Score and was selected as the best-performing model.
 
 🚀 DEPLOYMENT
+
+
 Built an interactive frontend using Streamlit.
 
 Allows users to:
@@ -68,11 +78,15 @@ View churn prediction results.
 Download predictions and model metrics.
 
 📊 VISUALISATION
+
+
 Embedded a Power BI dashboard to visualize customer behavior.
 
 Provided .pbix file for download in the app.
 
 🧾 MODEL FILES & OUTPUTS
+
+
 File	Description
 logistic_model.pkl	Trained Logistic Regression model
 xgb_model.pkl	Trained XGBoost model
@@ -120,6 +134,8 @@ Open terminal in pycharm and run thr code using streamlit run app.py
 
 
 ✅ REQUIREMENTS
+
+
 Python 3.8+,(3.11 preffered)
 
 Streamlit
@@ -140,9 +156,13 @@ Improve accuracy for Random Forest model
 
 
 VISUALS AND FINDINGS
+
+
 ![customer_retention](https://github.com/user-attachments/assets/8fc40293-2124-450f-896a-fe01818deffb)
 
 FINDINGS
+
+
 Retention is Strong: A high retention rate of 73.42% shows positive customer loyalty.
 
 Contract Length Matters: Customers with longer contracts (2 years) tend to churn less than those with month-to-month agreements.
@@ -158,6 +178,8 @@ A near-even split exists in StreamingTV usage.
 Tenure Matters: Average customer tenure of 32.42 months suggests that long-term users are common and may be more loyal.
 
 STORY TELLING
+
+
 
 The dashboard tells a compelling story of how contract type, internet service, and digital add-ons like Online Backup and StreamingTV influence customer retention. Most customers are on fiber optic internet, many of whom use month-to-month contracts—a risk factor for churn. However, customers who commit to longer-term contracts are more likely to stay. The dashboard empowers decision-makers to target month-to-month customers for upselling into longer plans, leverage value-added services like Online Backup, and prioritize engagement with high-value customer segments.
 
